@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+
+table {
+	border-collapse: collapse;
+	margin : 20px;
+	padding : 20px;
+	width: 500px;
+}
+
+th {
+	background-color : PaleTurquoise;
+}
+
+tr:nth-child(even) {
+	background-color : LightGray;
+}
+
+th, td {
+	height: 25px;
+	border-bottom : 1px solid #ddd;
+}
+
+td {
+	text-align : center;
+}
+
+.page {
+	margin : 20px;
+}
